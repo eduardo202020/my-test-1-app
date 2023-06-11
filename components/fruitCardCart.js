@@ -1,6 +1,10 @@
 import { View, Text, TouchableOpacity, Image } from "react-native";
 import React from "react";
 
+import { themeColors } from "../theme";
+
+import { PlusIcon, MinusIcon } from "react-native-heroicons/solid";
+
 export default function fruitCardCart({ fruit }) {
   return (
     <View className="flex-row justify-between items-center space-x-5 mb-4">
